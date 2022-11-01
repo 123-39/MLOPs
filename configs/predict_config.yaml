@@ -1,0 +1,7 @@
+input_data_path: "data/raw/heart_cleveland_upload.csv"
+model_path: "models/log_reg.pkl"
+predict_path: "data/predicted/predict.csv"
+transformer_path: "models/transformer_log_reg.pkl"
+
+target_in_dataset: True
+target_col: "condition"
